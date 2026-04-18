@@ -28,7 +28,7 @@ export default function ClientForm() {
                     type="text"
                     value={debt}
                     placeholder="Ingrese Monto de deuda"
-                    onChange={(e) => setNameClient(e.target.value)}
+                    onChange={(e) => setDebt(e.target.value)}
                     className="border border-gray-300 rounded px-3 py-2 flex-grow"
                 />
 
